@@ -12,14 +12,16 @@ const HomeParticle = () =>{
     params={{
 		// How many particles
 	    "particles": {
-	        "number": {
-	            "value": 100,
-	        },
+	        
 			//If they should move or not
             "move": {
                 "enable": true,
 
             },
+			//val
+			"number": {
+	            "value": 100,
+	        },
 			//Size set to random to have variation
 	        "size": {
 	            "value": 40,

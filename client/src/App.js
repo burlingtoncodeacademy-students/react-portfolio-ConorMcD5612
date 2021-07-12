@@ -13,7 +13,7 @@ import About from './components/About'
 
 
 function App() {
-   /*Will eventually end up only having componenets and not container classes} */
+   /*Will eventually end up only having componenets and not container classes */
   return (
    
     
