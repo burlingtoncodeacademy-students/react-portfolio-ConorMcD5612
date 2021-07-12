@@ -1,0 +1,132 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+
+    
+}
+
+
+header {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 2vw;
+}
+
+header .primary-header {
+
+    font-size: 12rem;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header .sub-header{
+
+    font-size: 3rem;
+    margin: 0;
+}
+
+.down-arrow{
+    width: 5vw;
+   margin-left:18vw ;
+   margin-top: 3vw;
+}
+
+.home-nav{
+    position: absolute;
+    display: flex;
+    width: 25vw;
+    justify-content: space-around;
+}
+
+.project-page{
+    background: white;
+    color: black;
+    width: 99vw;
+    height: 100vh;
+}
+
+.home-page{
+    background: black;
+    color: white;
+}
+
+.project-header{
+    margin-left: 2vw;
+    font-size: 9rem;
+}
+
+.box-container{
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+
+.box img{
+    width: 17vw;
+    
+}
+
+.box{
+    border: 7px solid black;
+    display: flex;
+    padding: 1vw;
+    width: 27vw;
+    height: 50vh;
+    justify-content: center;
+}
+
+.about-page{
+    background: black;
+    color: white;
+   
+    width: 99vw;
+    height: 100vh;
+}
+
+.about-flex{
+    display: flex;
+    flex-direction: column;
+    
+    width: 45vw;
+}
+
+
+.about-text{
+    text-align: justify;
+    font-size: 1.8rem;
+    margin-left:2vw;
+    
+   
+}
+
+.about-header{
+   
+    margin:2vw 0 0 2vw;
+    font-size: 9rem;
+}
+
+
+.puzzle-img{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 6vw;
+    right: 6vw;
+  
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-lineup{
+    display: flex;
+}
+
